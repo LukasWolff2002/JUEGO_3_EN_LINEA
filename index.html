@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en Raya</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            font-size: 16px;
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        #tablero {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+            justify-content: center;
+        }
+        .casilla {
+            width: 100px;
+            height: 100px;
+            font-size: 24px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100px;
+            background-color: #3498db;
+            color: white;
+            border: 2px solid #2980b9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>GATO PULENTO</h1>
+    <div id="tablero"></div>
+    <button id="reiniciarBtn">Reiniciar Juego</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
